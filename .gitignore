@@ -1,0 +1,43 @@
+# Data files
+data/
+datasets/
+final_datasets/
+processed_data/
+raw_data/
+
+# Outputs
+outputs/
+checkpoints/
+logs/
+runs/
+wandb/
+
+# Model and tensor files
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# Tables and intermediate files
+*.csv
+*.parquet
+*.jsonl
+
+# Keep configuration files if needed
+!configs/*.json
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
